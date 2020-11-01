@@ -134,6 +134,9 @@ const Nav = ( props ) => {
 								);
 							} ) }
 							<li className="header-nav__menu-item">
+								<Link className="header-nav__menu-link" to="/my-account">My Account</Link>
+							</li>
+							<li className="header-nav__menu-item">
 								<Link className="header-nav__menu-link" to="/checkout">Checkout</Link>
 							</li>
 						</ul>
