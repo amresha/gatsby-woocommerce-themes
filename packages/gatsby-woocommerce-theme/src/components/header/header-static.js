@@ -6,7 +6,7 @@ import Link from "gatsby-link";
  */
 import Nav from "./nav";
 import "./style.scss";
-import defaultSiteLogoUrl from "../../images/logo.png";
+import defaultSiteLogoUrl from "../../images/logo-smartbuyz.png";
 
 const Header = ({ data }) => {
   const {
@@ -26,8 +26,6 @@ const Header = ({ data }) => {
 		          <img
 			          className="site-brand__logo"
 			          src={siteLogoURL}
-			          width="68"
-			          height="55"
 			          alt="header logo"
 		          />
 	          </figure>
@@ -36,7 +34,6 @@ const Header = ({ data }) => {
             <h2 className="screen-reader-text site-brand__title">
               {siteTitle}
             </h2>
-            <p className="site-brand__description">{siteTagLine}</p>
           </div>
         </div>
 

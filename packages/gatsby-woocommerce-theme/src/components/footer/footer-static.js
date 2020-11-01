@@ -64,6 +64,7 @@ const Footer = ( { data } ) => {
 					) : (
 						""
 					) }
+
 				</div>
 
 				{/*	Bottom section*/ }
