@@ -30,7 +30,7 @@ const Carousel = () => {
       <Slider {...settings}>
       <div>
       <div class="color-overlay"></div>
-        <video width="100%" autoplay="true" loop playsinline muted>
+        <video width="100%" autoplay="true" loop playsinline muted  className="slider-video">
       	<source src={Bike} type="video/mp4" />
     		</video>
                    <div class="overlay">
@@ -51,7 +51,7 @@ const Carousel = () => {
       <div>
       <div class="color-overlay"></div>
 
-        <video width="100%" autoplay="true" loop playsinline muted>
+        <video width="100%" autoplay="true" loop playsinline muted  className="slider-video">
       	<source src={EduVideo} type="video/mp4" />
     		</video>
                    <div class="overlay">
@@ -70,7 +70,7 @@ const Carousel = () => {
       <div>
       <div class="color-overlay"></div>
 
-        <video width="100%" autoplay="true" loop playsinline muted>
+        <video width="100%" autoplay="true" loop playsinline muted  className="slider-video">
       	<source src={Home} type="video/mp4" />
     		</video>
                    <div class="overlay">
@@ -89,12 +89,12 @@ const Carousel = () => {
        <div>
       <div class="color-overlay"></div>
 
-        <video width="100%" autoplay="true" loop playsinline muted>
+        <video width="100%" autoplay="true" loop playsinline muted  className="slider-video">
       	<source src={Office} type="video/mp4" />
     		</video>
                    <div class="overlay">
       
-                      <h2 style={{color: '#1ce000'}}>Smart Office
+                      <h2 style={{color: '#9c27b0'}}>Smart Office
                         <span>REDESIGN YOUR</span>
                         <span>WORK PLACE</span>
                         <Link
