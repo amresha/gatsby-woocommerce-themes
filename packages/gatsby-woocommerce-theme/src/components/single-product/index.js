@@ -60,14 +60,15 @@ const SingleProduct = ( props ) => {
 					</div>
 					<div className="col-lg-7 col-md-6 mb-5">
 						<div className="single-product-desc">
-							<h3>{ product.name ? product.name : "" }</h3>
+							<h3 style={{color: '#333', fontWeight: '700', fontFamily: 'Pontano Sans', textAlign: 'left', margin: '0'}}>{ product.name ? product.name : "" }</h3>
+							<div className="single-product-add-to-cart">
+								<h6 className="card-subtitle mb-3" style={{color: '#FFC107', fontSize: '36px', paddingTop: '10px'}}>{ product.price }</h6>
+								<AddToCartButton product={ product }/>
+							</div>
 							{ !isEmpty( product.description ) ? (
 								<p dangerouslySetInnerHTML={ { __html: sanitize( product.description ) } }/>
 							) : null }
-							<div className="single-product-add-to-cart">
-								<h6 className="card-subtitle mb-3">{ product.price }</h6>
-								<AddToCartButton product={ product }/>
-							</div>
+
 							<SocialShareCard title={ product.name } sectionTitle="Share this product"
 							                 link={ product.uri }/>
 						</div>

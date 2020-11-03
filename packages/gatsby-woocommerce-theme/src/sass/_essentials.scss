@@ -57,6 +57,10 @@ ul {
 	@media only screen and (min-width: $tablet) {
 		padding-left: 20px;
 		padding-right: 20px;
+		.wp-video, .video {
+			width: 200px!important;
+			height: auto;
+		  }
 	}
 }
 
@@ -71,3 +75,11 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+@media only screen and (min-width: 375px) {
+	video {
+		width: 400px;
+		height: auto;
+	  }
+}
+
