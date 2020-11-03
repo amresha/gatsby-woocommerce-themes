@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import  Link from 'gatsby-link';
 import { each, isEmpty } from 'lodash';
 import classnames from 'classnames';
+import account from "../../images/account.png"
 
 import DropdownIcon from '../icons/dropdown-icon';
 import { normalizePath } from "../../utils/functions";
@@ -139,12 +140,16 @@ const Nav = ( props ) => {
 							<li className="header-nav__menu-item">
 								<Link className="header-nav__menu-link" to="/checkout">Checkout</Link>
 							</li>
+							
 						</ul>
+						
 					) : null }
 
 				</div>
 			</nav>
+			
 			<div className="cart-icon-wrap">
+			
 				<WishListIcon/>
 				<CartIcon/>
 				{/*Burger menu*/}

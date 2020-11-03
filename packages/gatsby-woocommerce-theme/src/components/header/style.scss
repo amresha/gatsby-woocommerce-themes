@@ -48,7 +48,7 @@
 
   .site-brand__logo {
     @include mq($until: small) {
-      width: 50px;
+      width: 250px;
     }
   }
 }
@@ -282,7 +282,7 @@
 }
 
 .cart-icon-wrap {
-	display: flex;
+	display: contents;
 	align-items: center;
 }
 
