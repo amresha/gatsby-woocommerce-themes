@@ -8,7 +8,7 @@ const Products = (props) => {
   const { products } = props;
   const [activePage, setActivePage] = useState(1);
   const [currentProducts, setCurrentProducts] = useState(null);
-  const productsPerPage = 6;
+  const productsPerPage = 10;
   const pageRange = 10;
 
   /**

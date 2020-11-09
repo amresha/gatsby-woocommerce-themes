@@ -1,3 +1,30 @@
 .woo-next-cart-wrapper {
   padding-bottom: 100px;
 }
+
+.btn-outline-dark  {
+  display: inline-block;
+  color: #ffffff!important;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #FFC107!important;
+  padding: 0.2rem 3.5rem!important;
+  font-size: 1.5rem!important;
+  line-height: 1.5;
+  border-radius: 0.25rem!important;
+  text-transform: uppercase!important;
+  font-weight: 500!important;
+}
+
+.btn-outline-dark {
+  color: #343a40;
+  border-color: #FFC107!important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40!important;
+  border-color: #343a40!important;
+}
